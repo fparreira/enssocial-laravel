@@ -13,4 +13,8 @@ class Casal extends Model
       return $this->belongsTo('App\Equipe', 'equipe_cas', 'id_equipe');
     }
 
+    public function pessoas(){
+      return $this->hasMany('App\Pessoa', 'casal_id');
+    }
+
 }

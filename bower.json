@@ -1,0 +1,7 @@
+{	
+	"name" : "enssocial-laravel",
+	"dependencies" : {
+		"bootstrap" : "~3.3.5"
+	}
+
+}

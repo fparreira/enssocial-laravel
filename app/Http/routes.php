@@ -11,6 +11,4 @@
 |
 */
 
-Route::get('/', function () {
-    return view('principal.index');
-});
+Route::get('/', 'PrincipalController@index');

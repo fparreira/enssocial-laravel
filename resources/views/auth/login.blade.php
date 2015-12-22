@@ -4,6 +4,13 @@
 
 @section("content")
 <div class="jumbotron">
+
+
   Você precisa fazer o login
 </div>
+
+{!! Form::open(array('class'=>'form-horizontal')) !!}
+
+{!! Form::close() !!}
+
 @endsection

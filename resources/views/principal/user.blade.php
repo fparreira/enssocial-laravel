@@ -4,7 +4,7 @@
 
 @section("content")
   <h1>ENS Social</h1>
-  <div class="jumbotron">página principal</div>
+  <div class="jumbotron">bem vindo a página principal</div>
 
   <script type="text/javascript">
     $("document").ready(function(){

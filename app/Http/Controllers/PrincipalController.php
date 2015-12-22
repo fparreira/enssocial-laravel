@@ -10,10 +10,14 @@ use App\Http\Controllers\Controller;
 class PrincipalController extends Controller
 {
 
-    public function index()
-    {
-        return view("principal.login");
+    public function login(){
+        return view("auth.login");
     }
+
+    public function user(){
+        return view("principal.user");
+    }
+
 
     /*public function auth(){
         $pessoa = \App\Pessoa()::find(3);
